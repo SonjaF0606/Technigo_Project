@@ -1,0 +1,55 @@
+/* Imnporting a google font*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+/* General formatting of the pages content*/
+body {
+  background-color: #F4976C;
+  font-family: 'Bree Serif', serif;
+  max-width: 768px;
+  text-align: center;
+  margin:0  auto;
+  padding: 20px 5px 5px 5px;
+}
+/* Centering the h1 headline*/
+h1 {
+  text-align: center;
+}
+/* Formatting the h1 headline and my description text. Adding a box around them*/
+.boxed {
+  text-align: justify;
+  color:#B4DFE5;
+  border: 5px solid #303C6C;
+  background-color: #303C6C;
+  padding: 5px 20px 5px 20px;
+}
+/* Formatting the h2 headline and the links for further reading. Adding a box around them*/
+.boxed1 {
+  text-align: justify;
+  color:#FBE8A6;
+  border: 5px solid #303C6C;
+  background-color: #303C6C;
+  padding: 5px 20px 5px 20px;
+}
+/* Styling the list of links by removing dots and indentation.*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Changing the color of the unclicked links.*/
+a {
+    color: #FBE8A6;
+}
+/* Changing the color of the links once they have been clicked.*/
+a:visited {
+  color: #F4976C;
+}
+/* Formatting the image. Adding a box around it*/
+.boxed2 {
+  text-align: center;
+  border: 5px solid #303C6C;
+  background-color: #303C6C;
+  padding: 5px 20px 5px 20px;
+}
+/* Making the image responsive.*/
+img {
+    width: 100%;
+}
